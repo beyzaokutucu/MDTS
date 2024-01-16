@@ -1,16 +1,43 @@
-# dts
+# Merkezi Doğumhane Takip Sistem Uygulaması
 
-A new Flutter project.
+Bu uygulama, hamile kişilerin en yakındaki doğumhaneleri bulmalarına yardımcı olur. Kullanıcı, uygulama üzerinden en yakın hastaneyi bulabilir ve doğrudan harita üzerinden yol tarifi alabilir.
 
-## Getting Started
+### Ana Sayfa
 
-This project is a starting point for a Flutter application.
+![Ana Sayfa](https://github.com/beyzaokutucu/MDTS/blob/main/assets/images/anasayfa.png)
 
-A few resources to get you started if this is your first Flutter project:
+Uygulamanın ana sayfasını gösteren ekran görüntüsü.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Doğumhaneyi Bul
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Doğumhaneyi Bul](https://github.com/beyzaokutucu/MDTS/blob/main/assets/images/sonu%C3%A7.png)
+
+Doğumhaneyi bulma sonuçlarını gösteren harita ekran görüntüsü.
+
+### Yönlendirme Sayfası
+
+![Yönlendirme Sayfası](https://github.com/beyzaokutucu/MDTS/blob/main/assets/images/sonu%C3%A72.png)
+
+Kullanıcıyı en yakın hastaneye yönlendiren ekran görüntüsü. Bu ekran, "En Yakın Hastaneyi Bul" butonuna tıklandıktan sonra görüntülenir.
+
+
+
+## Özellikler
+
+- En yakın doğumhaneyi bulma
+- Harita üzerinde konumu görüntüleme
+- Kullanıcı profili
+
+## Kullanım
+
+1. **Doğumhaneyi Bul:** Ana sayfa üzerindeki "Doğumhaneyi Bul" butonuna tıklayarak en yakın doğumhaneyi bulun.
+2. **Konum Görüntüleme:** Konum sekmesi üzerinden harita üzerinde bulunduğunuz konumu inceleyin.
+3. **Kullanıcı Profili:** Kullanıcı sekmesine giderek profil bilgilerinizi görüntüleyin ve düzenleyin.
+
+## Kurulum
+
+Projenin ana dizininde terminale aşağıdaki komutu yazarak bağımlılıkları yükleyin:
+
+```bash
+flutter pub get
+
